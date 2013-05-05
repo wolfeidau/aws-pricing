@@ -1,6 +1,6 @@
 # aws-pricing
 
-Small module which uses nodes http module to retrieve AWS pricing and parses it. data
+Small module which uses nodes http module to retrieve AWS pricing and parse it. data
 is downloaded from the [AWS Pricing Site](http://aws.amazon.com/ec2/pricing).
 
 ## Usage
@@ -18,6 +18,15 @@ awspricing.requestOnDemandPricing(function (err, data) {
     // mess with data
 })
 ```
+
+Available methods are:
+
+* requestOnDemandPricing
+* requestDataTransferPricing
+* requestElasticIpsPricing
+* requestElasticLoadBalancerPricing
+
+All accept the standard `callback(err, data)` with data containing the JSON returned by the service parsed into an object.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit

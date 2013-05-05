@@ -1,6 +1,6 @@
 {
   "name": "aws-pricing",
-  "description": "Small module which uses nodes http module to retrieve AWS pricing and parses it.",
+  "description": "Small module which uses nodes http module to retrieve AWS pricing and parse it.",
   "version": "0.1.2",
   "homepage": "https://github.com/wolfeidau/aws-pricing",
   "author": {
