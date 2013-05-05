@@ -1,7 +1,7 @@
 {
   "name": "aws-pricing",
   "description": "Small module which uses nodes http module to retrieve AWS pricing and parses it.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/wolfeidau/aws-pricing",
   "author": {
     "name": "Mark Wolfe",
@@ -27,8 +27,7 @@
   "scripts": {
     "test": "grunt test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt-contrib-concat": "~0.1.2",
     "grunt-contrib-uglify": "~0.1.1",
