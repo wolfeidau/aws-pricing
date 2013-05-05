@@ -1,8 +1,8 @@
 {
   "name": "aws-pricing",
-  "description": "The best project ever.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/markw/aws-pricing",
+  "description": "Small module which uses nodes http module to retrieve AWS pricing and parses it.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/wolfeidau/aws-pricing",
   "author": {
     "name": "Mark Wolfe",
     "email": "mark@wolfe.id.au"
