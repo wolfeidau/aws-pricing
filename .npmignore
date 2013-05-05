@@ -1,0 +1,5 @@
+.idea
+*.iml
+/public/components
+/components
+/node_modules
